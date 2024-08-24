@@ -6,6 +6,7 @@ variable "resource_group_name_suffix" {
 
 variable "location" {
   type = string
+  default = "uaenorth"
 }
 
 variable "aks_node_pool_vm_size" {
